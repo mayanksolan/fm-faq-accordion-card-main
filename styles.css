@@ -45,4 +45,28 @@ body {
 }
 .right-content {
   flex: 1;
+  padding: 80px 0;
+}
+.right-content h1 {
+  padding-left: 10%;
+}
+.item {
+  margin: 5% 10%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--Light-grayish-blue);
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  letter-spacing: 1.1px;
+  color: var(--Very-dark-grayish-blue);
+}
+.question img {
+  height: 9px;
+}
+.answer {
+  padding-top: 15px;
+  padding-right: 15px;
+  color: var(--Dark-grayish-blue);
 }
